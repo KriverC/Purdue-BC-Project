@@ -1,0 +1,24 @@
+{
+  "name": "purdue-bc-project",
+  "version": "1.0.0",
+  "description": "Repository housing the development of the final project for the blockchain course at Purdue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KriverC/Purdue-BC-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KriverC/Purdue-BC-Project/issues"
+  },
+  "homepage": "https://github.com/KriverC/Purdue-BC-Project#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.23.0"
+  }
+}
