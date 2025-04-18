@@ -39,13 +39,13 @@ describe("Market", function () {
     )
       .to.emit(market, "Update")
       .withArgs(
-        0,                           // listingId
-        0,                           // Status.Listed
-        nftAddr,                     // nftAddr
-        tokenId,                     // nftId
-        seller.address,              // seller
-        ethers.ZeroAddress,          // buyer = 0x00
-        ethers.parseEther("1")      // price
+        0,                           
+        0,                           
+        nftAddr,                     
+        tokenId,                     
+        seller.address,              
+        ethers.ZeroAddress,          
+        ethers.parseEther("1")      
       );
 
     // NFT custody moved to contract
@@ -71,7 +71,7 @@ describe("Market", function () {
       .to.emit(market, "Update")
       .withArgs(
         0,
-        1,                       // Status.Bought
+        1,                       
         nftAddr,
         tokenId,
         seller.address,
@@ -99,7 +99,7 @@ describe("Market", function () {
       .to.emit(market, "Update")
       .withArgs(
         0,
-        2,                       // Status.Cancelled
+        2,                       
         nftAddr,
         tokenId,
         seller.address,

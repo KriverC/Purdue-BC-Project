@@ -99,6 +99,4 @@ contract Market is ReentrancyGuard, IERC721Receiver {
 
   }
 
-
-
 }
