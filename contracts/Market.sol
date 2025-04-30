@@ -95,8 +95,10 @@ contract Market is ReentrancyGuard, IERC721Receiver {
     IERC721(listing.nftAddr).safeTransferFrom(address(this), listing.seller, listing.nftId);
 
     // Emit cancellation log
-    emit Update(listingId, Status.Cancelled, listing.nftAddr, listing.nftId, listing.seller, address(0), listing.price);
+    Update(listingId, Status.Cancelled, listing.nftAddr, listing.nftId, listing.seller, address(0), listing.price);
 
   }
 
 }
+
+// test 2
